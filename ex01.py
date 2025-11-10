@@ -8,7 +8,7 @@ import warnings
 # 경고 메시지 무시
 warnings.filterwarnings('ignore')
 # 한글 폰트 설정
-plt.rcParams['font.family'] = 'Malgun Gothic' # Windows
+plt.rcParams['font.family'] = 'NanumGothic'
 # plt.rcParams['font.family'] = 'AppleGothic' # Mac
 plt.rcParams['axes.unicode_minus'] = False # 마이너스 기호 깨짐 방지
 
@@ -302,4 +302,5 @@ elif selected == "CCTV 분석":
     show_cctv(cctv_df)
 elif selected == "1인가구 정보 분석":
     # 자치구별 1인가구 데이터를 함수에 전달
+
     show_population(pop_df)
